@@ -6,7 +6,7 @@ class ChaptersController extends GetxController {
 
   RxString booktitle = "".obs;
 
-  void addBook(Chapter chapter) {
+  void addChapter(Chapter chapter) {
     chapters.update((val) {
       val?.chapters.add(chapter);
     });

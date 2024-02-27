@@ -30,7 +30,7 @@ class _HomeState extends State<Bookcase> {
               ),
               onTap: () {
                 
-                chapterscontroller.selectBookTitle("Ejemplo master");
+                chapterscontroller.selectBookTitle(bookcasecontroller.bookcase.value.bookcase[index].title);
                 Get.to(() => const ChaptersPage());
               },
             );

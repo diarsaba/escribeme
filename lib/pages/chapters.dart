@@ -1,4 +1,5 @@
 import 'package:escribeme/controllers/controllers.dart';
+import 'package:escribeme/pages/modal_chapters.dart';
 import 'package:escribeme/pages/pages.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -43,7 +44,7 @@ class _ChaptersPageState extends State<ChaptersPage> {
                   context: context,
                   backgroundColor: Colors.transparent,
                   builder: (builder) {
-                    return const ModalInputs();
+                    return const ModalChaptersInputs();
                   });
             },
             child: Icon(Icons.add),
